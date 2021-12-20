@@ -1,1 +1,59 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    --background-color: #9dacb1;
+    --text-color: white;
+    --section-color-1: #454c4e;
+    --section-color-2: #2c7c96;
+    --highlight-color: #C2e9f7;
+}
+
+html {
+    background-color: var(--background-color);
+    color: var(--text-color);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#hero-img-div {
+    width: 100%;
+    height: 40vh;
+}
+
+#hero-img-div img {
+    width: 100%;
+    height: 40vh;
+    object-fit: cover;
+    object-position: 50% 40%;
+}
+
+nav {
+    height: 6vh;
+    margin-bottom: 6vh;
+    display: flex;
+    justify-content: center;
+    position: -webkit-sticky;
+    position: sticky;
+    background-color: var(--section-color-1);
+}
+
+/*Right now, the links aren't centered well within the navbar.  I need to center them while keeping
+their highlight area large enough to butt up against the other links.*/
+
+nav a {
+    text-decoration: none;
+    padding: 1.5vw 4vw;
+    color: var(--text-color);
+    font-weight: 550;
+    font-size: 22px;
+}
+
+nav a:hover {
+    background-color: #5c6568;
+    color: var(--highlight-color);
+    transition: 0.25s;
+}
 
