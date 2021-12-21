@@ -59,7 +59,7 @@ nav a:hover {
 
 article {
     width: 90%;
-    margin: 10vh auto;
+    margin: 20vh auto;
     background-color: var(--section-color-2);
 }
 
@@ -97,7 +97,75 @@ article {
     
 }
 
+.project-window {
+    border: 6px solid var(--section-color-2);
+    background-color:#0f5c75;
+}
+
+.project-window h3 {
+    text-align: center;
+    font-size: 26px;
+    text-shadow: 0 0 6px #1a1916;
+}
+
+.coming-soon {
+    background-color: #49575c;
+}
+
 #my-projects {
-    height: 80vh;
+    height: 75vh;
+}
+
+#project-container {
     display: flex;
+    flex-direction: column;
+    justify-content: stretch;
+    height: 65vh;
+    width: 90%;
+    margin: 2vh auto 0 auto;
+}
+
+#main-projects-div {
+    display: flex;
+    height: 75%;
+}
+
+#left-project-div {
+    width: 50%;
+    height: 100%;
+}
+
+#left-project-div h3 {
+    margin-top: 290px;
+}
+
+#right-projects-div {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    height: 100%;
+}
+
+#top-project-div {
+    height: 50%;
+}
+
+#top-project-div h3 {
+    margin-top: 130px;
+}
+
+#bottom-project-div {
+    height: 50%;
+}
+
+#bottom-project-div h3 {
+margin-top: 130px;
+}
+
+#more-projects-div {
+    height: 25%;
+}
+
+#more-projects-div h3 {
+    margin-top: 90px;
 }
