@@ -57,3 +57,47 @@ nav a:hover {
     transition: 0.25s;
 }
 
+article {
+    width: 90%;
+    margin: 10vh auto;
+    background-color: var(--section-color-2);
+}
+
+.section-header {
+    width: 30%;
+    margin: 0 auto;
+    text-align: center;
+    color: var(--text-color);
+    font-weight: 550;
+    font-size: 48px;
+    border-bottom: 5px solid var(--background-color);
+}
+
+#about-me section {
+    display: flex;
+    justify-content: space-around;
+    margin: 5vh 0;
+    padding: 2vh 3vw;
+    height: 50vh;
+}
+
+#about-me section p {
+    width: 30vw;
+    font-size: 18px;
+    line-height: 1.6;
+    margin: 10px 0;
+    padding: 0 2vw;
+}
+
+#about-me section img {
+    width: 25vw;
+    height: auto;
+    align-self: flex-start;
+    justify-self: center;
+    
+}
+
+#my-projects {
+    height: 80vh;
+    display: flex;
+}
