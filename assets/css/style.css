@@ -5,17 +5,25 @@
 }
 
 :root {
+
+    /*Color pallet variables*/
+
     --background-color: #5e6b7e;
     --text-color: white;
     --section-color-1: #454c4e;
     --section-color-2: #2f455a;
-    --highlight-color: #97dbf3;
+    --section-color-3: #0f5c75;
+    --highlight-color-1: #97dbf3;
+    --highlight-color-2: #5c6568;
+    --coming-soon-color: #49575c;
+    --shadow-color: #1a1916;
 }
 
 html {
     background-color: var(--background-color);
     color: var(--text-color);
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    scroll-behavior: smooth;
 }
 
 #hero-img-div {
@@ -53,8 +61,8 @@ nav a {
 }
 
 nav a:hover {
-    background-color: #5c6568;
-    color: var(--highlight-color);
+    background-color: var(--highlight-color-2);
+    color: var(--highlight-color-1);
     transition: 0.25s;
 }
 
@@ -72,6 +80,7 @@ article {
     font-weight: 550;
     font-size: 48px;
     border-bottom: 5px solid var(--background-color);
+    padding-top: 2vh;
 }
 
 #about-me section {
@@ -100,21 +109,21 @@ article {
 
 .project-window {
     border: 6px solid var(--section-color-2);
-    background-color:#0f5c75;
+    background-color:var(--section-color-3);
 }
 
 .project-window h3 {
     text-align: center;
     font-size: 26px;
-    text-shadow: 0 0 6px #1a1916;
+    text-shadow: 0 0 6px var(--shadow-color);
 }
 
 .coming-soon {
-    background-color: #49575c;
+    background-color: var(--coming-soon-color);
 }
 
 #my-projects {
-    height: 75vh;
+    height: 80vh;
 }
 
 #project-container {
@@ -210,5 +219,34 @@ margin-top: 130px;
 
 #social-links a:hover {
     color: var(--highlight-color);
+    transition: 0.25s;
+}
+
+#footer {
+    background-color: var(--section-color-1);
+    height: 6vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+#footer a {
+    text-decoration: none;
+    color: var(--text-color);
+    font-size: 22px;
+    font-weight: 450;
+    text-shadow: 0 0 10px var(--shadow-color);
+    border: 2px solid var(--text-color);
+    border-radius: 6px;
+    padding: 10px;
+    margin-left: 70%;
+}
+
+#footer a:hover {
+    background-color: var(--text-color);
+    color: black;
+    border: 2px solid black;
+    text-shadow: none;
     transition: 0.25s;
 }
