@@ -8,10 +8,10 @@
 
     /*Color pallet variables*/
 
-    --background-color: #5e6b7e;
+    --background-color: #9297a1;
     --text-color: white;
     --section-color-1: #454c4e;
-    --section-color-2: #2f455a;
+    --section-color-2: #305579;
     --section-color-3: #0f5c75;
     --highlight-color-1: #90d9f3;
     --highlight-color-2: #5c6568;
@@ -69,9 +69,10 @@ nav a:hover {
 }
 
 article {
-    width: 90%;
+    width: 75%;
     margin: 20vh auto;
     background-color: var(--section-color-2);
+    box-shadow: 0 0 30px rgb(49, 50, 53);
 }
 
 .section-header {
@@ -95,10 +96,13 @@ article {
 
 #about-me section p {
     width: 30vw;
-    font-size: 18px;
-    line-height: 1.6;
+    font-size: 24px;
+    line-height: 1.;
     margin: 10px 0;
-    padding: 0 2vw;
+    padding: 0.5vw 2vw;
+    background-color: #5a656975;
+    text-shadow: 0 0 5px var(--shadow-color);
+    font-style: italic;
 }
 
 #about-me section img {
@@ -106,6 +110,8 @@ article {
     height: auto;
     align-self: flex-start;
     justify-self: center;
+    border-radius: 5px;
+    box-shadow: 0 0 20px rgb(44, 44, 44);
     
 }
 
@@ -135,7 +141,7 @@ article {
     text-decoration: none;
     color: var(--text-color);
     font-weight: 500;
-    font-size: 26px;
+    font-size: 36px;
     text-shadow: 0 0 6px var(--shadow-color);
 }
 
