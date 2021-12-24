@@ -127,22 +127,29 @@ article {
 .project-window img {
     width: 100%;
     height: 100%;
+    opacity: 55%;
     object-fit: cover;
     object-position: center;
 }
 
-.project-window img:hover {
-    opacity: 55%;
+.project-window > :hover {
+    opacity: 100%;
     transition: 0.25s ease-out;
 }
 
 .project-window a {
-    position: absolute;
+    height: 100%;
+    width: 100%;
+    opacity: 55%;
     text-decoration: none;
+    text-align: center;
     color: var(--text-color);
     font-weight: 500;
     font-size: 36px;
     text-shadow: 0 0 6px var(--shadow-color);
+    box-shadow: 0 0 4px var(--shadow-color);
+    border-radius: 3px;
+    background-size: cover;
 }
 
 .coming-soon {
@@ -172,6 +179,10 @@ article {
     height: 100%;
 }
 
+#left-project-div a {
+    background-image: url("../images/horiseon.jpg");
+}
+
 #right-projects-div {
     display: flex;
     flex-direction: column;
@@ -183,8 +194,8 @@ article {
     height: 50%;
 }
 
-#top-project-div img {
-    object-position: 50% 0%;
+#top-project-div a {
+    background-image: url("../images/run-buddy-image.JPG");
 }
 
 #bottom-project-div {
