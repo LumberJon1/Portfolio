@@ -280,3 +280,61 @@ article {
     text-shadow: none;
     transition: 0.18s;
 }
+
+/*Responsive media queries for mobile*/
+@media screen and (max-width: 500px) {
+
+    #hero-img-div {
+        height: 30vh;
+    }
+
+    #hero-img-div img {
+        height: 30vh;
+    }
+
+    #navbar a {
+        font-size: 12px;
+    }
+
+    .section-header {
+        font-size: 30px;
+        width: 80%;
+    }
+
+    #about-me section {
+        height: auto;
+        flex-direction: column-reverse;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+
+    #about-me section img {
+        align-self: center;
+        width: 60vw;
+        margin-bottom: 3vh;
+    }
+
+    #about-me section p {
+        width: 60vw;
+        padding: 5vh auto;
+        font-size: 18px;
+    }
+
+    #my-projects {
+        height: auto;
+    }
+
+    #contact-me {
+        height: auto;
+    }
+
+    #social-links {
+        width: 60vw;
+        margin-right: 50px;
+        justify-content: flex-start;
+    }
+
+    #social-links a {
+        font-size: 18px;
+    }
+}
