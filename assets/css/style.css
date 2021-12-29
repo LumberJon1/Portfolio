@@ -8,7 +8,7 @@
 
     /*Color pallet variables*/
 
-    --background-color: #9297a1;
+    --background-color: #8aa7bb;
     --text-color: white;
     --section-color-1: #454c4e;
     --section-color-2: #305579;
@@ -49,7 +49,13 @@ nav {
     top: 0;
     background-color: var(--section-color-1);
     box-shadow: 0 2px 6px rgb(29, 28, 28);
+    opacity: 85%;
     z-index: 10;
+}
+
+nav:hover {
+    opacity: 100%;
+    transition: 0.2s;
 }
 
 nav a {
@@ -95,7 +101,12 @@ article {
     justify-content: space-around;
     margin: 5vh 0;
     padding: 2vh 3vw;
-    height: 50vh;
+    height: auto;
+}
+
+#about-me section span {
+    color:var(--highlight-color-1);
+    font-size: 30px;
 }
 
 #about-me section p {
@@ -110,7 +121,7 @@ article {
 }
 
 #about-me section img {
-    width: 25vw;
+    width: 35vw;
     height: auto;
     align-self: flex-start;
     justify-self: center;
@@ -280,6 +291,31 @@ article {
     text-shadow: none;
     transition: 0.18s;
 }
+
+/*Responsive design for smaller screens/tablets*/
+@media screen and (max-width: 800px) {
+    .section-header {
+        width: 80%;
+    }
+
+    #about-me section {
+        flex-direction: column-reverse;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+
+    #about-me section img {
+        align-self: center;
+        margin-bottom: 3vh;
+        width: 80%;
+    }
+
+    #about-me section p {
+        font-size: 18px;
+        width: 80%;
+    }
+}
+
 
 /*Responsive media queries for mobile*/
 @media screen and (max-width: 500px) {
