@@ -24,5 +24,9 @@ a.text-secondary:hover {
 }
 
 .bg-secondary {
-    background-image: linear-gradient(to bottom right, #cbe5e9, #848b78)
+    background-image: linear-gradient(to bottom right, #cbe5e9, #848b78);
+}
+
+.bg-light {
+    background-image: linear-gradient(to bottom, #ffffff, #dae2e6);
 }
