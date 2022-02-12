@@ -30,3 +30,15 @@ a.text-secondary:hover {
 .bg-light {
     background-image: linear-gradient(to bottom, #ffffff, #dae2e6);
 }
+
+.carousel-item img {
+    width: auto;
+    height: 450px;
+    max-height: 450px;
+    object-fit: cover;
+    object-position: 50% 0%;
+}
+
+.carousel-indicators {
+    opacity: 50%;
+}
