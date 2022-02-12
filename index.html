@@ -4,6 +4,9 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Alumni+Sans:wght@300&family=Julius+Sans+One&family=Shippori+Mincho+B1&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <script src="https://kit.fontawesome.com/d7051457e0.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="./assets/css/style.css">
@@ -29,21 +32,22 @@
         </nav>
     </section>
 
-    <div class="jumbotron w-100">
-        <img src="./assets/images/profile-img-1.jpg" alt="hero-img" class="w-100 h-100">
+    <div class="jumbotron w-100 position-relative">
+        <img src="./assets/images/profile-img-1.jpg" alt="Jonathan sitting atop a cliff, laptop open" class="w-100">
+        <h1 class="position-absolute">Jonathan Williams</h1>
     </div>
 
     <section class="row py-4" id="who-am-i-section">
-        <h2 class="p-0 pb-0 text-center col-12">Who Am I?</h2>
+        <h2 class="p-0 pb-0 text-center col-12 w-100 h-20">Who Am I?</h2>
         <div class="col-12 col-md-4 bg-light shadow-lg">
-            <p class="p-3 text-center">My name is Jonathan, and I'm a web developer and programmer who loves to
+            <p class="p-3 text-center ">My name is Jonathan, and I'm a web developer and programmer who loves to
                 learn!  Coding is a passion I discovered in college, and have never stopped enjoying,
                 but really I love learning almost anything. The feeling of elation and accomplishment
                 that comes from overcoming challenges is hard to beat,
             </p>
         </div>
         <div class="col-12 col-md-4 d-flex flex-column justify-content-center align-items-center">
-            <img src="./assets/images/profile-img-2.jpg" alt="A picture of me" class="shadow rounded img-fluid text-center bg-secondary">
+            <img id="" src="./assets/images/profile-img-2.jpg" alt="A picture of me" class="shadow rounded img-fluid text-center bg-secondary">
         </div>
         <div class="col-12 col-md-4 bg-light shadow-lg">
             <p class="p-3 text-center">
@@ -59,7 +63,7 @@
         <div id="projects-section-title" class="col-12 h-20 bg-tertiary pb-2 text-center mb-2 shadow">
             <h2>My Projects</h2>
         </div>
-        <div id="carousel" class="carousel slide col-6" data-ride="carousel">
+        <div id="carousel" class="carousel slide col-md-6" data-ride="carousel">
             <!--Carousel position indicators-->
             <ol class="carousel-indicators bg-dark">
                 <li data-target="#carousel" data-slide-to="0" class="active"></li>
@@ -96,17 +100,17 @@
                 <span class="sr-only">Next</span>
             </a>
         </div>
-        <div class="col-6 d-flex flex-column align-items-center">
+        <div class="col-md-6 d-flex flex-column align-items-center">
             <h2 class="text-center p-4">Project Title</h2>
             <p class="my-3 py-3">Description of the project to the left</p>
             <button class="btn btn-outline-light mb-4">View more...</button>
         </div>
     </section>
     <!--Skills Section-->
-    <section class="row bg-light py-4">
+    <section class="row bg-light d-flex justify-content-center py-4">
         <h2 class="col-12 mx-auto text-center">My Skills</h2>
-        <ul class="col-4 border border-secondary shadow rounded skills-list mx-1">
-            <h3 class="text-monospace text-center text-secondary">Technical</h3>
+        <ul class="col-md-4 border d-flex flex-column align-items-center justify-content-center border-secondary shadow rounded skills-list mx-1">
+            <h3 class="text-center text-secondary">Technical</h3>
             <li class="m-2">
                 <span class="badge badge-pill my-0.5 badge-info shadow">CSS</span>
             </li>
@@ -127,8 +131,8 @@
             </li>
         </ul>
 
-        <ul class="col-3 border border-secondary shadow rounded skills-list mx-1">
-            <h3 class="text-monospace text-center text-secondary">Tools</h3>
+        <ul class="col-md-3 d-flex flex-column justify-content-between align-items-center border border-secondary shadow rounded skills-list mx-1">
+            <h3 class="text-center text-secondary">Tools</h3>
             <li class="m-2">
                 <span class="badge badge-pill my-0.5 badge-info shadow">Bootstrap</span>
             </li>
@@ -140,8 +144,8 @@
             </li>
         </ul>
 
-        <ul class="col-4 border border-secondary shadow rounded skills-list mx-1">
-            <h3 class="text-monospace text-center text-secondary">Soft Skills</h3>
+        <ul class="col-md-4 d-flex flex-column align-items-center justify-content-between border border-secondary shadow rounded skills-list mx-1">
+            <h3 class="text-center text-secondary">Soft Skills</h3>
             <li class="m-2">
                 <span class="badge badge-pill my-0.5 badge-info shadow">Communication</span>
             </li>

@@ -1,3 +1,21 @@
+/*
+font-family: 'Alumni Sans', sans-serif;
+font-family: 'Julius Sans One', sans-serif;
+font-family: 'Shippori Mincho B1', serif;
+*/
+
+h1 {
+    font-family: 'Julius Sans One', sans-serif;
+}
+
+h2 {
+    font-family: 'Shippori Mincho B1', serif;
+}
+
+h3 {
+    font-family: 'Alumni Sans', sans-serif;
+}
+
 .skills-list {
     list-style: none;
 }
@@ -31,6 +49,34 @@ a.text-secondary:hover {
     background-image: linear-gradient(to bottom, #ffffff, #dae2e6);
 }
 
+.jumbotron {
+    max-height: 65vh;
+    height: 65vh;
+}
+
+.jumbotron img {
+    height: 100%;
+    object-fit: cover;
+    opacity: 70%;
+    object-position: 50% 70%;
+}
+
+.jumbotron h1 {
+    width: 80%;
+    text-align: center;
+    top: 50%;
+    letter-spacing: 8px;
+    text-shadow: 0 0 1px black;
+    background-color: #5c5b5b83;
+    padding: 1.5% 0;
+}
+
+#hero-section {
+    background-image: url("../images/profile-img-1.jpg");
+    background-position: center;
+    background-size: cover;
+}
+
 .carousel-item img {
     width: auto;
     height: 450px;
@@ -44,5 +90,5 @@ a.text-secondary:hover {
 }
 
 .bg-tertiary {
-    background-image: linear-gradient(to bottom, #cee7fc, #bdb397);
+    background-image: linear-gradient(to top, #5a6159, #d4e0e0);
 }
