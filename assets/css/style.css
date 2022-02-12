@@ -42,3 +42,7 @@ a.text-secondary:hover {
 .carousel-indicators {
     opacity: 50%;
 }
+
+.bg-tertiary {
+    background-image: linear-gradient(to bottom, #cee7fc, #bdb397);
+}
