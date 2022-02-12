@@ -71,6 +71,37 @@ a.text-secondary:hover {
     padding: 1.5% 0;
 }
 
+.section-header {
+    background-image: linear-gradient(to bottom right, #cecece, #7e7e7e);
+    height: 8vh;
+    padding: 1vh;
+    letter-spacing: 7px;
+    margin: 0 auto;
+    font-family: 'Julius Sans One', sans-serif;
+    text-shadow: 0 0 1px black;
+}
+
+#about-img-div {
+    background-color: rgba(172, 172, 172, 0.425);
+}
+
+#about-img {
+    max-height: 40vh;
+    border-radius: 10px;
+    width: 100%;
+    object-fit: cover;
+    object-position: 80% 60%;
+    background-color: #5c5b5b83;
+    opacity: 80%;
+}
+
+.about-text {
+    font-size: 1.25rem;
+    line-height: 1.8;
+    color: black;
+    background-color: none;
+}
+
 #hero-section {
     background-image: url("../images/profile-img-1.jpg");
     background-position: center;
@@ -89,6 +120,15 @@ a.text-secondary:hover {
     opacity: 50%;
 }
 
+#project-title-div {
+    background-color: #cfcfcf81;
+}
+
+#project-title-div h2, p{
+    background-color: #5f5f5f3d;
+    color: white;
+}
+
 .bg-tertiary {
-    background-image: linear-gradient(to top, #5a6159, #d4e0e0);
+    background-color: #5c5b5b83;
 }
