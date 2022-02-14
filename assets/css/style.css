@@ -124,6 +124,36 @@ a.text-secondary:hover {
     opacity: 50%;
 }
 
+.project-link {
+    text-decoration: none;
+    background-color: none;
+    cursor: pointer;
+    transition: 0.5s ease-in-out;
+    width: 100%;
+    left: 0;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+}
+
+.project-link:hover {
+    background-color: #333335ad;
+    text-decoration: none;
+    color:#e9eaeb;
+    opacity: 100%;
+}
+
+.project-link p {
+    background-color: none;
+    font-size: 2rem;
+    font-weight: bold;
+    padding: 10px 20px;
+    border-radius: 5px;
+    width: 50%;  
+}
+
 #project-title-div {
     background-color: #cfcfcf81;
 }
