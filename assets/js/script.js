@@ -6,18 +6,11 @@ var carousel = document.getElementById("carousel");
 
 //Carousel descriptions
 var projectDescriptions = [
-    {projectNumber: 0, projectName: "Project 1", description: "Work Day Scheduler is an app that allows you to add tasks to each block of the work day, and will highlight each block of time based on the current hour."},
+    {projectNumber: 0, projectName: "Project 1", description: "My Pantry allows you to create a virtual food pantry to see what you've got on the shelves at home, remove items so you'll never have to guess what you're out of, and shop confidently with the knowledge you can check back without standing in front of the cupboard."},
     {projectNumber: 1, projectName: "Project 2", description: "The City Weather Dashboard app lets you type in a city and see its current and five-day forecast, as well as select from a list of previously-searched cities."},
-    {projectNumber: 2, projectName: "Project 3", description: "Check Yourself is a mental health app designed to give you suggestions for fun local activities based on your mood, and can store your past daily entries for review."},
-    {projectNumber: 3, projectName: "Project 4", description: "Password Generator takes your criteria such as capitalization and special characters, and generates a random password for you to use."},
-    {projectNumber: 4, projectName: "Project 5", description: "Pokemon Type Randomizer takes a random pokemon and reassignes it a new typing, letting you reimagine and draw it."}
+    {projectNumber: 2, projectName: "Project 3", description: "Check Yourself is a mental health app designed to give you suggestions for fun local activities based on your mood, and can store your past daily entries for review."}
 ]
 
-//Carousel view buttons
-
-//Update project title
-
-//Load project description
 
 //View this project function
 //- Grab the project link
@@ -43,6 +36,4 @@ $("#carousel").on("slide.bs.carousel", function(event) {
     $("#project-description").text(projectDescription);
     $("#view-project-btn").children("a").attr("href", projectLink);
 
-})
-
-//Listener for view all projects
+});
