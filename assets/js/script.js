@@ -4,15 +4,15 @@ var carouselSlides = document.getElementsByClassName("carousel-item");
 var carouselTitles = document.getElementsByClassName("carousel-title");
 var carousel = document.getElementById("carousel");
 
-// Javascript to hide hero image on scroll
-// $(window).bind('scroll', function() {
-//     if ($(window).scrollTop() > 300) {
-//         $('#hero-img-div').css({"transform": "translate(0%, -200%)"})
-//     }
-//     else {
-//         $('#hero-img-div').css({"transform": "translate(0%, 0%)"});
-//     }
-// });
+// Javascript to hide hero image text on scroll
+$(window).bind('scroll', function() {
+    if ($(window).scrollTop() > 300) {
+        $('.hero-title').addClass("hide-title")
+    }
+    else {
+        $('.hero-title').removeClass("hide-title");
+    }
+});
 
 //Carousel descriptions
 var projectDescriptions = [

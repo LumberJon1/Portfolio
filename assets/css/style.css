@@ -35,6 +35,28 @@ body {
     color: white;
 }
 
+.hero-title {
+    transition: all 0.67s ease-in-out;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    top: 50%;
+    left: 0%;
+    width: 75%;
+    height: 10%;
+    margin: auto 0px;
+    background-color: #333335ad;
+    box-shadow: 2px 6px 20px rgb(34, 33, 33);
+    color: white;
+    text-shadow: 1px 1px 3px rgb(68, 67, 67);
+    font-size: 48px;
+}
+
+.hide-title {
+    transform: translate(-100%, 0%);
+}
+
 .hero-img {
     object-fit: cover;
     object-position: center;
