@@ -16,26 +16,26 @@
 <body class="relative">
     <section class="sticky top-0">
         <nav class="navbar h-16">
-            <ul class="flex items-center h-full">
-                <li class="nav-item mx-2">
+            <ul class="flex items-center w-full h-full">
+                <li class="nav-item text-sm md:text-lg md:mx-2">
                     <a href="#who-am-i-section" class="nav-link">About Me</a>
                 </li>
-                <li class="nav-item mx-2">
+                <li class="nav-item text-sm md:text-lg md:mx-2">
                     <a href="#projects-section" class="nav-link">My Projects</a>
                 </li>
-                <li class="nav-item mx-2">
+                <li class="nav-item text-sm md:text-lg md:mx-2">
                     <a href="#skills-section" class="nav-link">My Skills</a>
                 </li>
-                <li class="nav-item mx-2">
+                <li class="nav-item text-sm md:text-lg md:mx-2">
                     <a href="#contact-me-section" class="nav-link">Contact Me</a>
                 </li>
             </ul>
         </nav>
     </section>
 
-    <div class="w-full hero-img-div" id="hero-img-div">
-        <h1 class="hero-title" id="hero-title">Jonathan Williams</h1>
-        <img src="./assets/images/profile-img-1.jpg" alt="Jonathan sitting atop a cliff, laptop open" class="h-screen hero-img">
+    <div class="w-screen hero-img-div" id="hero-img-div">
+        <h1 class="hero-title pl-4 md:h-24 md:pl-0" id="hero-title">Jonathan Williams</h1>
+        <img src="./assets/images/profile-img-1.jpg" alt="Jonathan sitting atop a cliff, laptop open" class="h-screen w-screen hero-img">
     </div>
 
     <main>
@@ -63,9 +63,9 @@
         <section class="section relative flex flex-col items-center" id="projects-section">
             <h2 class="section-title text-3xl my-4">My Projects</h2>
             <div class="row w-full py-3 flex justify-center items-center text-center shadow mx-auto">
-                <div id="carousel" class="carousel slide w-1/2" data-ride="carousel">
+                <div id="carousel" class="carousel slide md:w-1/2" data-ride="carousel">
                     <!--Carousel position indicators-->
-                    <ol class="carousel-indicators h-4 flex items-center w-1/2 mx-auto px-4">
+                    <ol class="carousel-indicators h-4 flex items-center md:w-1/2 mx-auto px-4">
                         <li data-target="#carousel" data-slide-to="0" class="active"></li>
                         <li data-target="#carousel" data-slide-to="1"></li>
                         <li data-target="#carousel" data-slide-to="2"></li>
@@ -110,8 +110,8 @@
                     </a>
                 </div>
     
-                <div id="project-title-div" class="col-12 col-md-5 mx-auto d-flex flex-column justify-content-center align-items-center border border-light rounded">
-                    <h2 id="project-title" class="w-100 text-center p-2">Workday Scheduler</h2>
+                <div id="project-title-div" class="col-12 col-md-5 mx-auto d-flex flex-column justify-content-center align-items-center border border-light rounded my-6 md:my-1">
+                    <h2 id="project-title text-xl" class="w-100 text-center p-2">Workday Scheduler</h2>
                     <p id="project-description" class="my-3 p-3 rounded">Work Day Scheduler is an app that allows you to add tasks to each block of the work day, and will highlight each block of time based on the current hour.</p>
                     <div>
                         <button id="view-project-btn" class="btn btn-outline-light mb-4">
@@ -127,8 +127,8 @@
         <!--Skills Section-->
         <section id="skills-section" class="section flex flex-col items-center justify-center">
             <h2 class="section-title text-3xl my-4">My Skills</h2>
-            <ul class="text-center w-1/2 my-4 bg-zinc-500 rounded shadow-lg">
-                <h3 class="text-2xl font-bold text-slate-800">Technical/Languages</h3>
+            <ul class="text-center p-3 md:p-1 md:w-1/2 my-4 bg-zinc-500 rounded shadow-lg">
+                <h3 class="text-lg text-center md:text-2xl font-bold text-slate-800">Technical/Languages</h3>
                 <li class="m-2">
                     <span class="">CSS</span>
                 </li>
@@ -155,8 +155,8 @@
                 </li>
             </ul>
     
-            <ul class="text-center w-1/2 my-4 bg-zinc-500 rounded shadow-lg">
-                <h3 class="text-2xl font-bold text-slate-800">Tools/Frameworks</h3>
+            <ul class="text-center p-3 md:p-1 md:w-1/2 my-4 bg-zinc-500 rounded shadow-lg">
+                <h3 class="text-lg text-center md:text-2xl font-bold text-slate-800">Tools/Frameworks</h3>
                 <li class="m-2">
                     <span class="">React</span>
                 </li>
@@ -195,8 +195,8 @@
                 </li>
             </ul>
             
-            <ul class="text-center w-1/2 my-4 bg-zinc-500 rounded shadow-lg">
-                <h3 class="text-2xl font-bold text-slate-800">Methodologies</h3>
+            <ul class="text-center p-3 md:p-1 md:w-1/2 my-4 bg-zinc-500 rounded shadow-lg">
+                <h3 class="text-lg text-center md:text-2xl font-bold text-slate-800">Methodologies</h3>
                 <li class="m-2">
                     <span class="">TDD</span>
                 </li>
