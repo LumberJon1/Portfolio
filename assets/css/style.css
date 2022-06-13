@@ -63,6 +63,59 @@ main {
     top: 85vh;
 }
 
-.carousel-item {
-    
+.carousel-item img {
+    width: auto;
+    height: 450px;
+    max-height: 450px;
+    object-fit: cover;
+    object-position: 50% 0%;
+}
+
+.carousel-indicators {
+    opacity: 50%;
+    background-color: #24242791;
+}
+
+.project-link {
+    text-decoration: none;
+    background-color: none;
+    cursor: pointer;
+    transition: 0.5s ease-in-out;
+    width: 100%;
+    left: 0;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+}
+
+.project-link:hover {
+    background-color: #333335ad;
+    text-decoration: none;
+    color:#e9eaeb;
+    opacity: 100%;
+}
+
+.project-link p {
+    background-color: none;
+    font-size: 2rem;
+    font-weight: bold;
+    padding: 10px 20px;
+    border-radius: 5px;
+    width: 50%;  
+}
+
+.carousel-indicators:hover {
+    cursor: pointer;
+}
+
+.project-button {
+    text-decoration: none;
+    color: white;
+}
+
+.project-button:hover {
+    color: black;
+    text-decoration: none;
 }

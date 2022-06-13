@@ -16,9 +16,10 @@ var carousel = document.getElementById("carousel");
 
 //Carousel descriptions
 var projectDescriptions = [
-    {projectNumber: 0, projectName: "Project 1", description: "My Pantry allows you to create a virtual food pantry to see what you've got on the shelves at home, remove items so you'll never have to guess what you're out of, and shop confidently with the knowledge you can check back without standing in front of the cupboard."},
-    {projectNumber: 1, projectName: "Project 2", description: "The City Weather Dashboard app lets you type in a city and see its current and five-day forecast, as well as select from a list of previously-searched cities."},
-    {projectNumber: 2, projectName: "Project 3", description: "Check Yourself is a mental health app designed to give you suggestions for fun local activities based on your mood, and can store your past daily entries for review."}
+    {projectNumber: 0, projectName: "Project 1", description: "Photo Flow is a single-page application (SPA) that allows photographers to view and manage upcoming shoots, assign events different tasks that need to be completed by specific deadlines, and edit and complete tasks in their client pipeline."},
+    {projectNumber: 1, projectName: "Project 2", description: "My Pantry allows you to create a virtual food pantry to see what you've got on the shelves at home, remove items so you'll never have to guess what you're out of, and shop confidently with the knowledge you can check back without standing in front of the cupboard."},
+    {projectNumber: 2, projectName: "Project 3", description: "The City Weather Dashboard app lets you type in a city and see its current and five-day forecast, as well as select from a list of previously-searched cities."},
+    {projectNumber: 3, projectName: "Project 4", description: "Check Yourself is a mental health app designed to give you suggestions for fun local activities based on your mood, and can store your past daily entries for review."}
 ]
 
 

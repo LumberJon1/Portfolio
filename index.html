@@ -65,14 +65,22 @@
             <div class="row w-full py-3 flex justify-center items-center text-center shadow mx-auto">
                 <div id="carousel" class="carousel slide w-1/2" data-ride="carousel">
                     <!--Carousel position indicators-->
-                    <ol class="carousel-indicators">
+                    <ol class="carousel-indicators h-4 flex items-center w-1/2 mx-auto px-4">
                         <li data-target="#carousel" data-slide-to="0" class="active"></li>
                         <li data-target="#carousel" data-slide-to="1"></li>
                         <li data-target="#carousel" data-slide-to="2"></li>
+                        <li data-target="#carousel" data-slide-to="3"></li>
                     </ol>
                     <!--Inner carousel items-->
                     <div id="carousel-inner" class="carousel-inner">
+
                         <div class="carousel-item active">
+                            <a href="https://still-castle-38267.herokuapp.com/" class="position-absolute project-link">
+                                <p class="carousel-title">Photo Flow</p>
+                            </a>
+                            <img src="./assets/images/photo-flow2.JPG" class="d-block w-100" alt="Photo Flow App">
+                        </div>
+                        <div class="carousel-item">
                             <a href="https://whispering-tundra-55246.herokuapp.com/" class="position-absolute project-link">
                                 <p class="carousel-title">My Pantry</p>
                             </a>
@@ -107,10 +115,10 @@
                     <p id="project-description" class="my-3 p-3 rounded">Work Day Scheduler is an app that allows you to add tasks to each block of the work day, and will highlight each block of time based on the current hour.</p>
                     <div>
                         <button id="view-project-btn" class="btn btn-outline-light mb-4">
-                            <a href="https://lumberjon1.github.io/Workday-Scheduler/">View This Project</a>
+                            <a class="project-button" href="https://lumberjon1.github.io/Workday-Scheduler/">View This Project</a>
                         </button>
                         <button id="view-all-btn" class="btn btn-outline-light mb-4">
-                            <a href="https://github.com/LumberJon1?tab=repositories">View All Projects</a>
+                            <a class="project-button" href="https://github.com/LumberJon1?tab=repositories">View All Projects</a>
                         </button>
                     </div>
                 </div>
