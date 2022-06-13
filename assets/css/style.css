@@ -1,0 +1,50 @@
+
+
+/* font-family: 'Inria Sans', sans-serif;
+font-family: 'Ledger', serif;
+font-family: 'Spectral SC', serif; */
+
+* {
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: black;
+    color: white;
+    z-index: 2;
+}
+
+
+.navbar {
+
+}
+
+.nav-item {
+    list-style: none;
+}
+
+.nav-item a {
+    text-decoration: none;
+    transition: 0.125s ease-in-out;
+    color: #acb7f3;
+}
+
+.nav-item a:hover {
+    border-bottom: 2px white solid;
+    color: white;
+}
+
+.hero-img-div {
+    object-fit: cover;
+    position: fixed;
+    z-index: 1;
+    background-color: black;
+    transition: all 2s ease-in-out; 
+}
+
+.section {
+    background-color: #24242791;
+    position: relative;
+    z-index: 5;
+    opacity: 85%;
+}

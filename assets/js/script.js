@@ -4,6 +4,16 @@ var carouselSlides = document.getElementsByClassName("carousel-item");
 var carouselTitles = document.getElementsByClassName("carousel-title");
 var carousel = document.getElementById("carousel");
 
+// Javascript to hide hero image on scroll
+$(window).bind('scroll', function() {
+    if ($(window).scrollTop() > 300) {
+        $('#hero-img-div').css({"transform": "translate(0%, -200%)"})
+    }
+    else {
+        $('#hero-img-div').css({"transform": "translate(0%, 0%)"});
+    }
+});
+
 //Carousel descriptions
 var projectDescriptions = [
     {projectNumber: 0, projectName: "Project 1", description: "My Pantry allows you to create a virtual food pantry to see what you've got on the shelves at home, remove items so you'll never have to guess what you're out of, and shop confidently with the knowledge you can check back without standing in front of the cupboard."},

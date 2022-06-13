@@ -6,38 +6,38 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Alumni+Sans:wght@300&family=Julius+Sans+One&family=Shippori+Mincho+B1&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css2?family=Inria+Sans&family=Ledger&family=Spectral+SC:wght@300&display=swap" rel="stylesheet">
     <script src="https://kit.fontawesome.com/d7051457e0.js" crossorigin="anonymous"></script>
+    <script src="https://cdn.tailwindcss.com"></script>
     <link rel="stylesheet" href="./assets/css/style.css">
     <title>Portfolio</title>
 </head>
 <body class="">
     <section class="">
-        <nav class="">
-            <ul class="">
-                <li class="">
-                    <a href="#who-am-i-section" class="nav-link text-secondary">About Me</a>
+        <nav class="navbar h-16">
+            <ul class="flex items-center h-full">
+                <li class="nav-item mx-2">
+                    <a href="#who-am-i-section" class="nav-link">About Me</a>
                 </li>
-                <li class="">
-                    <a href="#projects-section" class="nav-link text-secondary">My Projects</a>
+                <li class="nav-item mx-2">
+                    <a href="#projects-section" class="nav-link">My Projects</a>
                 </li>
-                <li class="">
-                    <a href="#skills-section" class="nav-link text-secondary">My Skills</a>
+                <li class="nav-item mx-2">
+                    <a href="#skills-section" class="nav-link">My Skills</a>
                 </li>
-                <li class="">
-                    <a href="#contact-me-section" class="nav-link text-secondary">Contact Me</a>
+                <li class="nav-item mx-2">
+                    <a href="#contact-me-section" class="nav-link">Contact Me</a>
                 </li>
             </ul>
         </nav>
     </section>
 
-    <div class="w-100 position-relative">
-        <img src="./assets/images/profile-img-1.jpg" alt="Jonathan sitting atop a cliff, laptop open" class="w-100">
+    <div class="w-full h-96 hero-img-div" id="hero-img-div">
         <h1 class="position-absolute">Jonathan Williams</h1>
+        <img src="./assets/images/profile-img-1.jpg" alt="Jonathan sitting atop a cliff, laptop open" class="w-full hero-img">
     </div>
 
-    <section class="">
+    <section class="px-4 section w-3/4 mx-auto">
         <h2 class="">Who Am I?</h2>
         <div class="">
             <p class="">My name is Jonathan, and I'm a web developer and programmer who loves to
@@ -47,7 +47,6 @@
             </p>
         </div>
         <div id="about-img-div" class="">
-            <img id="about-img" src="./assets/images/profile-img-2.jpg" alt="A picture of me" class="">
         </div>
         <div class="">
             <p class="">
@@ -59,7 +58,7 @@
         </div>
     </section>
     <!--Projects Section-->
-    <section class="" id="projects-section">
+    <section class="section w-3/4 mx-auto" id="projects-section">
         <h2 class="">My Projects</h2>
         <div class="row w-100 bg-tertiary py-3 d-flex justify-content-center align-items-center text-center shadow mx-auto">
             <div id="carousel" class="carousel slide col-12 col-md-6" data-ride="carousel">
@@ -184,10 +183,10 @@
             </li>
         </ul>
     </section>
-    <section id="resume-section" class="row d-flex justify-content-center py-4">
-        <div class="col-12 d-flex flex-column align-items-center justify-content-center border border-secondary shadow rounded mx-0 px-0 w-100">
-            <h3 class="text-center section-header w-100">Check Out My Full Resume</h3>
-            <a href="https://docs.google.com/document/d/1aFJBCp14T8ySWL2iJEuk5ghzGfATbq0UGp4NatM7frE/edit?usp=sharing" class="btn btn-info text-light rounded my-4 p-2 mx-auto">My Resume</a>
+    <section id="resume-section" class="">
+        <div class="">
+            <h3 class="">Check Out My Full Resume</h3>
+            <a href="https://docs.google.com/document/d/1aFJBCp14T8ySWL2iJEuk5ghzGfATbq0UGp4NatM7frE/edit?usp=sharing" class="">My Resume</a>
         </div>
     </section>
     <!--Reach out section-->
