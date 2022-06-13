@@ -5,14 +5,14 @@ var carouselTitles = document.getElementsByClassName("carousel-title");
 var carousel = document.getElementById("carousel");
 
 // Javascript to hide hero image on scroll
-$(window).bind('scroll', function() {
-    if ($(window).scrollTop() > 300) {
-        $('#hero-img-div').css({"transform": "translate(0%, -200%)"})
-    }
-    else {
-        $('#hero-img-div').css({"transform": "translate(0%, 0%)"});
-    }
-});
+// $(window).bind('scroll', function() {
+//     if ($(window).scrollTop() > 300) {
+//         $('#hero-img-div').css({"transform": "translate(0%, -200%)"})
+//     }
+//     else {
+//         $('#hero-img-div').css({"transform": "translate(0%, 0%)"});
+//     }
+// });
 
 //Carousel descriptions
 var projectDescriptions = [
